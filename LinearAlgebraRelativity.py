@@ -42,7 +42,7 @@ def find_conversions(v: int, t: int, l: int, y: int, z: int):
 
     multiply_operator[0][0] = gama
     multiply_operator[1][1] = gama
-    multiply_operator[2][2] = 1
+    multiply_operator[2][2] = gama
     multiply_operator[3][3] = 1
 
     motion_frame_list = matrix_mult(multiply_operator, static_frame_list)
